@@ -8,10 +8,9 @@ As Salesforce doesnt provide a native option for this featiure,this Python scrip
 
 Before using this script, ensure you have the necessary packages installed. You can install the required packages by running the following command:
 
-```markdown
 ```bash
 pip install -r requirements.txt
-```
+
 
 Make sure you have the following information ready:
 
@@ -51,6 +50,9 @@ python python extractCountryStates.py
 ## Output
 
 The script will generate an Excel file named `output.xlsx` in the specified output directory.
+
+![image](https://github.com/psagredo99/extractCountryStatesSalesforce/assets/72439144/9f036307-23b8-4ed4-b6e5-00cca20ee296)
+
 
 ## Configuration
 
