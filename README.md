@@ -1,7 +1,7 @@
 
-```markdown
 # Salesforce Country + States extract
 
+```markdown
 As Salesforce doesnt provide a native option for this featiure,this Python script allows you to connect to a Salesforce instance, retrieve metadata information for Accounts, and export it to an Excel file. The script uses the `simple_salesforce` library to establish a connection with Salesforce and `pandas` to manipulate the data.
 
 ## Prerequisites
@@ -17,8 +17,10 @@ Make sure you have the following information ready:
 - Salesforce Username
 - Salesforce Password
 - Salesforce Security Token
-  If dont display reset token option add this to org url: https://****.com/_ui/system/security/ResetApiTokenEdit
 - Salesforce Domain (use 'login' for production or 'test' for development)
+
+-   If dont display reset token option add this to org url: https://****.com/_ui/system/security/ResetApiTokenEdit
+
 
 ## Usage
 
