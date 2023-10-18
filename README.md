@@ -10,6 +10,7 @@ Before using this script, ensure you have the necessary packages installed. You 
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 Make sure you have the following information ready:
