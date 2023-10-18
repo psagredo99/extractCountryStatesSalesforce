@@ -46,6 +46,6 @@ result = result.rename(columns={'defaultValue_x': 'State_IsdefaultValue', 'defau
 data = result[['CountryLabel', 'CountryValue', 'Country_IsdefaultValue', 'CountryIsactive', 'State_Label', 'StateValue', 'StateValue', 'State_isActive', 'State_IsdefaultValue']]
 
 #Cuidado con las rutas relativas y completas + extension del archivo
-data.to_excel(r'C:\Users\pablo.sagredo\OneDrive - PKF Attest\Documentos\Scripts\output.xlsx', index=False)
+data.to_excel(r'C:\...', index=False)
 
 
