@@ -1,15 +1,17 @@
 
 # Salesforce Country + States extract
 
-```markdown
+
 As Salesforce doesnt provide a native option for this featiure,this Python script allows you to connect to a Salesforce instance, retrieve metadata information for Accounts, and export it to an Excel file. The script uses the `simple_salesforce` library to establish a connection with Salesforce and `pandas` to manipulate the data.
 
 ## Prerequisites
 
 Before using this script, ensure you have the necessary packages installed. You can install the required packages by running the following command:
 
+```markdown
 ```bash
 pip install -r requirements.txt
+```
 ```
 
 
@@ -66,3 +68,7 @@ You can customize the output columns by editing the script. Look for the section
 - [Salesforce](https://www.salesforce.com/)
 
 Feel free to modify this README to provide more specific details about your project and its usage.
+
+## Credits
+Credits to original script author and post:
+https://medium.com/@saivarma844/exporting-country-and-state-picklist-values-in-salesforce-983927ae0dda
