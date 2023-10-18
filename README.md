@@ -66,8 +66,6 @@ You can customize the output columns by editing the script. Look for the section
 - [Pandas](https://pypi.org/project/pandas/)
 - [Salesforce](https://www.salesforce.com/)
 
-Feel free to modify this README to provide more specific details about your project and its usage.
-
 ## Credits
 Credits to original script author and post:
 https://medium.com/@saivarma844/exporting-country-and-state-picklist-values-in-salesforce-983927ae0dda
